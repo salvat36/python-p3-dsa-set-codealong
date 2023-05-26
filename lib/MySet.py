@@ -19,4 +19,4 @@ class MySet:
         return len(self.dictionary)
     
     def clear(self):
-        self.dictionary.clear(self)
+        self.dictionary.clear()
