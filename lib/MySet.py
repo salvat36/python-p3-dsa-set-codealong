@@ -20,3 +20,9 @@ class MySet:
     
     def clear(self):
         self.dictionary.clear()
+
+    def __str__(self):
+        set_list = []
+        for key, value in self.dictionary.items():
+            set_list.append(str(key))
+        return f'MySet: {{{",".join(set_list)}}}'
